@@ -14,6 +14,8 @@ Make sure you have the following installed on your system:
 - pip (Python package installer)
 - Node
 - npm
+- Mistral API
+- LMNT API
 
 ### Steps
 
