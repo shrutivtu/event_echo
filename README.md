@@ -1,4 +1,4 @@
-# Combined App API - Setup and Installation Guide
+# EventEcho: Combined App API - Setup and Installation Guide 
 
 This repository contains the setup and usage instructions for the **Combined App API**, which provides functionality to create a vector store and query audio data. The API is built with Python and exposes endpoints for creating and querying the vector store.
 
