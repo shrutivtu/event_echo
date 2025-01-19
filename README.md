@@ -47,7 +47,7 @@ Install the dependencies by installing the requirements.txt file.
    uvicorn combined_app:app --host 0.0.0.0 --port 8000 
 
 5. **Run the Web App:**
-    Enter the UI App folder. Run the web app with the following commands.
+    Enter the UI App folder. Enter the Frontend folder and then run the web app with the following commands.
     ```bash
     run npm install
     run npm start
