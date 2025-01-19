@@ -1,5 +1,7 @@
 # EventEcho: Combined App API - Setup and Installation Guide 
 
+![WhatsApp Image 2025-01-19 at 14 01 00_c4cb7511](https://github.com/user-attachments/assets/402da5e7-8152-41e7-bb75-4c117483deae)
+
 EventEcho is an AI-powered tool that addresses the challenge of attending events with multiple conferences where it’s difficult to keep track of all discussions. This solution provides real-time transcription and generates audio summaries, allowing attendees to easily review the day’s key points and stay informed about all sessions they missed or attended. Perfect for enhancing accessibility and understanding in conferences and meetings.
 
 This repository contains the setup and usage instructions for the **Combined App API**, which provides functionality to create a vector store and query audio data. The API is built with Python and exposes endpoints for creating and querying the vector store.
