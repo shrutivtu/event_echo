@@ -1,0 +1,124 @@
+:root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --accent-color: #1f1f1f;
+    --highlight-color: #bb86fc;
+    --button-color: #282828;
+    --button-hover-color: #383838;
+    --disabled-button-color: #555555;
+    --note-border-color: #444444;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+
+  main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .voice-recorder {
+    min-width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .current-note, .saved-notes {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    color: var(--highlight-color);
+    margin-bottom: 10px;
+  }
+  
+  .mic-status {
+    margin-bottom: 10px;
+  }
+  
+  .mic-on {
+    color: var(--highlight-color);
+    font-size: 24px;
+  }
+  
+  .mic-off {
+    color: var(--disabled-button-color);
+    font-size: 24px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: var(--disabled-button-color);
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: var(--button-hover-color);
+  }
+  
+  .note-text {
+    padding: 10px;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    border: 1px solid var(--note-border-color);
+  }
+  
+  .note-item {
+    padding: 8px;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid var(--note-border-color);
+  }
+  
+  .query-section {
+    margin-top: 20px;
+  }
+  
+  .query-button {
+    margin-bottom: 10px;
+  }
+  
+  .query-status {
+    color: var(--text-color);
+    font-style: italic;
+  }
+  
+  .audio-response {
+    margin-top: 10px;
+  }
+  
+  .audio-player {
+    width: 100%;
+    outline: none;
+  }
+  
