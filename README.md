@@ -27,8 +27,8 @@ Make sure you have the following installed on your system:
    Clone the repository to your local machine using Git. Then, go to the "Backend" Folder.
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/shrutivtu/event_echo.git
+   cd event_echo
    cd Backend
 
 2. **Create and activate a virtual environment** (optional but recommended):
