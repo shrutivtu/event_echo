@@ -20,11 +20,12 @@ Make sure you have the following installed on your system:
 ### Steps
 
 1. **Clone the repository**:
-   Clone the repository to your local machine using Git.
+   Clone the repository to your local machine using Git. Then, go to the "Backend" Folder.
 
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+   cd Backend
 
 2. **Create and activate a virtual environment** (optional but recommended):
    To ensure the correct dependencies are installed without affecting your global Python environment, create a virtual environment:
